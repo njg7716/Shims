@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+//Author: Nick Graca
+//Email: njg7716@rit.edu
+
 //This C code does all the naughty things
 //will be in /bin/list
 int main(int argc, char **argv){

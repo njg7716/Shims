@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Author: Nick Graca
+#Email: njg7716@rit.edu
+
 #will be in /bin/ls
 
 #calls the healthy one to not look sus
